@@ -5,7 +5,7 @@
 method used for comparision.
   
    
-   I am a lecture of Anhui University, and my research focus on motor control and artificial intelligence. If you find some errors in my statement, or if you are interest in my research, please contact to me. My email is 10031@ahu.edu.cn.
+   I am a lecture of Anhui University, China, and my research focus on motor control and artificial intelligence. If you find some errors in my statement, or if you are interest in my research, please contact to me. My email is 10031@ahu.edu.cn.
  
    
    My first paper: "Rotor resistance and excitation inductance estimation of induction motor using deep-q-learning algorithm", submited to "Engineering Applications of Artificial Intelligence". In this paper, I proposed an artificial intelligence method(Deep-Q Learning) to estimate induction motor's parameters, and I argued that as Deep-Q Learning method is a data-based strategy, it is superior to traditional model-based strategy in motor control applications, such as Model Reference Adaption System(MRAS), Extenal Kalman Filter(EKF), Least Square Method(LSM) and so on.
