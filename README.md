@@ -1,7 +1,7 @@
 # Paper_Result
   
   
-   ## This is Qixing's github, which include the the experiment code and result of my research paper, with both my own method and the
+   This is Qixing's github, which include the the experiment code and result of my research paper, with both my own method and the
 method used for comparision.
   
    
