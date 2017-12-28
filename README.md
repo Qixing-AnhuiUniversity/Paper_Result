@@ -12,3 +12,5 @@ method used for comparision.
   
    
    In order to justify my argument, in the paper four comparision experiments were set up : 1, IEEE standard 211, the most common method, which is very familiar to the engineer, as it contains no-load test and rotor-locked test; 2, Multiobjective Particle Swarm Optimization(MPSO), one of my favorited methods, as it is quite simple but very effective; 3, A latest model-method: Least Square Method with Start-up Measurement(LSMSM); 4, Deep-Q Learning method(DQL). Because IEEE standard 211 is quite common, I think there is no need to open source it, so I just open source the other three method: MPSO, LSMSM and DQL. If the author of MPSO or LSMSM think it is inappropriate to open source it, or find some erros in the open source code, please contack to me, so I can delete it or revise it.
+   
+![Alt text](./qq.jpg)
