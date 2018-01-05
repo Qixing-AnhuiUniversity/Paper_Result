@@ -15,9 +15,13 @@ method used for comparision.
    
    Here are  instructions about MOPSO:
    1, Download PSO.m and Sphere.m
+   
    2, Open MATLAB, run PSO.m.
+   
    3, When running finised, open workspace, find Gbest, open it.
+   
    4, you can get the right rotor estimation value.
+   
    
    Here are instructions about LSMTM:
    1, Download qxforLsmooth.mdl, lsmforpaper-1.py, lsmdatacollect.m
