@@ -2,7 +2,6 @@ function f = Sphere(X)
 
     Uf = 400;
     Ul = 100;
-    Rr = 0.338;
     s = 0.07;
     sl = 1;
     w = 100*pi;
