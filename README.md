@@ -14,6 +14,7 @@ method used for comparision.
    In order to justify it, four comparision experiments were set up : 1, IEEE standard 211, the most common method, which is very familiar to the engineer; 2, Multiobjective Particle Swarm Optimization(MOPSO), which is easy to implement and very effective; 3, A latest model-based method: Least Square Method with start-up Transient Measurement(LSMTM); 4, Deep-Q Learning method(DQL). Because IEEE standard 211 is quite common, I will not open source it, so I just open source the other three method: MPSO, LSMSM and DQL. If the author of MPSO or LSMSM think it is inappropriate to open source it, or find some erros in the  source code, please contack with me. I can delete it or revise it.
    
    Here are  instructions about MOPSO:
+   
    1, Download PSO.m and Sphere.m
    
    2, Open MATLAB, run PSO.m.
@@ -24,9 +25,13 @@ method used for comparision.
    
    
    Here are instructions about LSMTM:
+   
    1, Download qxforLsmooth.mdl, lsmforpaper-1.py, lsmdatacollect.m
+   
    2, Run qxforLsmooth.mdl in Simulink. Noticed that my MATLAB version is MATLAB2016.b, Unbuntu. If you find some error when running, maybe there are two reasons: 1), your MATLAB verson must be 2016b or higher; 2) you have to run the model in Unbuntu system, because I haven't test it in Windows yet.
+   
    3, If step 2 finised successfully, run lsmdatacollect.m, the data will be stored in CSV format.
+   
    4, run lsmforpaper-1.py, finially you can get the right answer. (K1 and K2 calculated only, and you can transform it to Rr or Lm)
    
 
