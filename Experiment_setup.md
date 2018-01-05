@@ -1,6 +1,6 @@
 # Experiment Setup #
 
-Visit my blog:http://qixing-ahu.com/ , you can find more information on it.
+Visit my blog:http://qixing-ahu.com/ , and you can find more information on it.
 
 In order to verify my theory, a motor test bench is neccesary. The test bench consist of following equipments:
 
