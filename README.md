@@ -8,9 +8,21 @@ method used for comparision.
   If you find some errors in my statement, or if you are interest in my research, please contact with me. My email is 10031@ahu.edu.cn.
  
    
-   My first paper: "Rotor resistance and excitation inductance estimation of induction motor using deep-q-learning algorithm", submited to "Engineering Applications of Artificial Intelligence". In this paper, I proposed an artificial intelligence method(Deep-Q Learning) to estimate induction motor's parameters, and I argued that as Deep-Q Learning method is a data-based strategy, it is superior to traditional model-based strategy in motor control applications, such as Model Reference Adaption System(MRAS), Extenal Kalman Filter(EKF), Least Square Method(LSM) and so on.
+   My first paper: "Rotor resistance and excitation inductance estimation of induction motor using deep-q-learning algorithm". In this paper, I proposed an artificial intelligence method(Deep-Q Learning) to estimate induction motor's parameters, and I argued that as Deep-Q Learning method is a data-based method, it is superior to traditional model-based strategy in motor control applications, such as Model Reference Adaption System(MRAS), Extenal Kalman Filter(EKF), Least Square Method(LSM) and so on.
   
    
-   In order to justify my argument, in the paper four comparision experiments were set up : 1, IEEE standard 211, the most common method, which is very familiar to the engineer, as it contains no-load test and rotor-locked test; 2, Multiobjective Particle Swarm Optimization(MPSO), one of my favorited methods, as it is quite simple but very effective; 3, A latest model-method: Least Square Method with Start-up Measurement(LSMSM); 4, Deep-Q Learning method(DQL). Because IEEE standard 211 is quite common, I think there is no need to open source it, so I just open source the other three method: MPSO, LSMSM and DQL. If the author of MPSO or LSMSM think it is inappropriate to open source it, or find some erros in the open source code, please contack with me, so I can delete it or revise it.
+   In order to justify it, four comparision experiments were set up : 1, IEEE standard 211, the most common method, which is very familiar to the engineer; 2, Multiobjective Particle Swarm Optimization(MOPSO), which is easy to implement and very effective; 3, A latest model-based method: Least Square Method with start-up Transient Measurement(LSMTM); 4, Deep-Q Learning method(DQL). Because IEEE standard 211 is quite common, I will not open source it, so I just open source the other three method: MPSO, LSMSM and DQL. If the author of MPSO or LSMSM think it is inappropriate to open source it, or find some erros in the  source code, please contack with me. I can delete it or revise it.
+   
+   Here are  instructions about MOPSO:
+   1, Download PSO.m and Sphere.m
+   2, Open MATLAB, run PSO.m.
+   3, When running finised, open workspace, find Gbest, open it.
+   4, you can get the right rotor estimation value.
+   
+   Here are instructions about LSMTM:
+   1, Download qxforLsmooth.mdl, lsmforpaper-1.py, lsmdatacollect.m
+   2, Run qxforLsmooth.mdl in Simulink. Noticed that my MATLAB version is MATLAB2016.b, Unbuntu. If you find some error when running, maybe there are two reasons: 1), your MATLAB verson must be 2016b or higher; 2) you have to run the model in Unbuntu system, because I haven't test it in Windows yet.
+   3, If step 2 finised successfully, run lsmdatacollect.m, the data will be stored in CSV format.
+   4, run lsmforpaper-1.py, finially you can get the right answer. (K1 and K2 calculated only, and you can transform it to Rr or Lm)
    
 
