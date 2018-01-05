@@ -34,4 +34,6 @@ method used for comparision.
    
    4, run lsmforpaper-1.py, finially you can get the right answer. (K1 and K2 calculated only, and you can transform it to Rr or Lm)
    
-
+  Here are instructions about DQL:
+  
+  Because my paper is under review now, after reviewing, I will release detail information of DQL.
