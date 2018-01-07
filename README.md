@@ -12,7 +12,7 @@
    
    In order to justify it, four comparision experiments were set up : 1, IEEE standard 211, the most common method, which is very familiar to the engineer; 2, Multiobjective Particle Swarm Optimization(MOPSO), which is easy to implement and very effective; 3, A latest model-based method: Least Square Method with start-up Transient Measurement(LSMTM); 4, Deep-Q Learning method(DQL). Because IEEE standard 211 is quite common, I will not open source it. I just open source the other three method: MPSO, LSMSM and DQL. If the author of MPSO or LSMSM think it is inappropriate to open source it, or find some erros in the  source code, please contack with me, so I can delete it or revise it at your request.
    
-   The experiment is implemented in my test bench, you can read anoter document "Experiment Setup.md" to find for details. However, as it is difficult to release a product-level source code, I only released some demo code based on my simulation test bench. Also you can find some information of simulation test bench in  "Experiment Setup.md".
+   The experiment is implemented in my test bench, you can read anoter document "Experiment Setup.md" to find more details. However, as it is difficult to release a product-level source code in github, I only released some demo code based on my simulation test bench. Also you can find some information of simulation test bench in  "Experiment Setup.md".
    
    Here are  instructions about MOPSO:
 
