@@ -16,7 +16,7 @@ In order to verify my theory, a motor test bench is neccesary. The test bench co
 
 6, and the last, you need a computer for running the algorithm.
 
-If you found it is hard to establish such an experiment environment, please don't worry. I will present a much simpler simulated environment. All you need is just a computer with the software of MATLAB2016b (or higher level version, for example, MATLAB2017a, etc), and, a python interpreter. 
+Actually there are lots of technical details I haven't released. It is not easy to build up such a test bench if you are not a experienced motor control engineer. I will release further imformation about the bench in the future , such as "how I can get data from motor?" or " how I run the motor in speed loop?" But now, please don't worry if you found it is hard to establish such an experiment environment, because I will present a much simpler simulated environment. All you need is just a computer with the software of MATLAB2016b (or higher level version, for example, MATLAB2017a, etc), and, a python interpreter. 
 
  MATLAB2016b or higher version MATLAB is necessary because it has the API to python. you can combine MATLAB and python conveniently through MATLAB's API. More detail is availible from [https://cn.mathworks.com/help/matlab/apiref/matlab.engine.matlabengine-class.html](https://cn.mathworks.com/help/matlab/apiref/matlab.engine.matlabengine-class.html). 
 
